@@ -12,7 +12,7 @@
       --green-dark: #3f5f1b;
       --brown-main: #8b5a2b;
       --cream: #f4f0da;
-      --panel-bg: rgba(248, 244, 224, 0.9);
+      --panel-bg: rgba(248, 244, 224, 0.95);
       --border-pixel: 4px;
     }
 
@@ -31,6 +31,7 @@
       background-color: #7ec850;
       color: #222;
       min-height: 100vh;
+      /* Pattern background */
       background-image:
         linear-gradient(90deg, rgba(0,0,0,0.08) 1px, transparent 1px),
         linear-gradient(180deg, rgba(0,0,0,0.08) 1px, transparent 1px);
@@ -239,13 +240,11 @@
       </nav>
     </header>
 
-    <!-- ========== GRADE 2 ========== -->
     <section id="grade2">
       <h2>Grade 2 – Hand-Painted Napkin & Bottle Piggy Bank</h2>
       <p class="tagline">Servilleta pintada a mano y alcancía con botella reciclada.</p>
 
       <div class="flex-row">
-        <!-- Imagen de la artesanía con materiales -->
         <div class="panel">
           <h3>Craft & Materials</h3>
           <img
@@ -264,7 +263,6 @@
           </ul>
         </div>
 
-        <!-- Conversation card -->
         <div class="panel">
           <h3>Conversation Card</h3>
           <img
@@ -280,7 +278,6 @@
       </div>
 
       <div class="media-grid">
-        <!-- Storybook -->
         <div class="panel">
           <h3>Storybook</h3>
           <p>
@@ -294,7 +291,6 @@
           </p>
         </div>
 
-        <!-- Video de práctica -->
         <div class="panel">
           <h3>Practice Video</h3>
           <div class="short-wrapper">
@@ -309,7 +305,6 @@
           </p>
         </div>
 
-        <!-- Galería de fotos -->
         <div class="panel">
           <h3>Class Gallery</h3>
           <p>
@@ -322,7 +317,6 @@
       </div>
     </section>
 
-    <!-- ========== GRADE 3 ========== -->
     <section id="grade3">
       <h2>Grade 3 – Dreamcatchers</h2>
       <p class="tagline">Atrapasueños con estambre de lana y palitos de madera.</p>
@@ -401,7 +395,6 @@
       </div>
     </section>
 
-    <!-- ========== GRADE 4 ========== -->
     <section id="grade4">
       <h2>Grade 4 – Alebrijes & Paper Airplanes</h2>
       <p class="tagline">
@@ -480,6 +473,13 @@
         </div>
       </div>
     </section>
+
+    <footer>
+      English Craft Market Project – Instituto San Felipe Bacalar
+    </footer>
+  </div>
+</body>
+</html>
 
     <footer>
       English Craft Market Project – Instituto San Felipe Bacalar
